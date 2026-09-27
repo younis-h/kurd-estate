@@ -1,32 +1,20 @@
 import 'package:flutter/material.dart';
 
+import '../core/theme/app_theme.dart';
+import 'app_router.dart';
+
 class KurdEstateApp extends StatelessWidget {
   const KurdEstateApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Kurd Estate',
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
 
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: const Color(0xFF0E6B50),
-        scaffoldBackgroundColor: Colors.white,
-      ),
+      theme: AppTheme.lightTheme,
 
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            'Kurd Estate',
-            style: TextStyle(
-              fontSize: 28,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ),
+      routerConfig: appRouter,
     );
   }
 }
