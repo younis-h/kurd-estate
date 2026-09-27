@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../constants/app_colors.dart';
 
-/// Centralized text styles for Kurd Estate.
+/// Centralized text styles for Smart City.
 class AppTextStyles {
   AppTextStyles._();
 

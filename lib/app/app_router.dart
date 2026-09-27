@@ -103,11 +103,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kurd Estate'),
+        title: const Text('Smart City'),
       ),
       body: const Center(
         child: Text(
-          'Kurd Estate',
+          'Smart City',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,

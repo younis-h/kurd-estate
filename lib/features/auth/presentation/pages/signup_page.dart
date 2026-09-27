@@ -189,7 +189,7 @@ class _SignupPageState extends ConsumerState<SignupPage> {
                     ),
 
                     Text(
-                      'Create your Kurd Estate account',
+                      'Create your Smart City account',
                       textAlign: TextAlign.center,
                       style: Theme.of(context)
                           .textTheme
@@ -204,7 +204,7 @@ class _SignupPageState extends ConsumerState<SignupPage> {
                     ),
 
                     Text(
-                      'Join Kurd Estate and start exploring properties.',
+                      'Join Smart City and start exploring properties.',
                       textAlign: TextAlign.center,
                       style: Theme.of(context).textTheme.bodyLarge,
                     ),

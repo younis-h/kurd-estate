@@ -9,7 +9,7 @@ class KurdEstateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Kurd Estate',
+      title: 'Smart City',
       debugShowCheckedModeBanner: false,
 
       theme: AppTheme.lightTheme,

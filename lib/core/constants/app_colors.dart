@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Kurd Estate Color Palette
+/// Smart City Color Palette
 /// Central place for all application colors.
 class AppColors {
   AppColors._();

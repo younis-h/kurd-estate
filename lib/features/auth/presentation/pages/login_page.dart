@@ -160,7 +160,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                     ),
 
                     Text(
-                      'Welcome to Kurd Estate',
+                      'Welcome to Smart City',
                       textAlign: TextAlign.center,
                       style: Theme.of(context)
                           .textTheme
